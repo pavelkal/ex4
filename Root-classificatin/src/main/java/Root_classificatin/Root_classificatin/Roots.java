@@ -9,6 +9,7 @@ enum Root_Types {
       Two_roots,
       ERROR
       //
+      //
 	}
 
 //Roots class source from example
