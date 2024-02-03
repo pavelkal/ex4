@@ -8,8 +8,7 @@ enum Root_Types {
       Equal_roots,
       Two_roots,
       ERROR
-      //
-      //
+      
 	}
 
 //Roots class source from example
@@ -59,3 +58,11 @@ class Roots
     	  roots = Root_Types.Not_quadratic; 
       }
    }
+
+    public static Root_Types root_types()
+    {
+    	
+    	return roots;
+    }
+
+ }
